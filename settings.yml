@@ -1,1 +1,7 @@
-post_width: 75%
+additional_post_width:
+  default: 120px
+  description: 'Increases the post width by this value when the screen is big enough. Too high values will cause overlap with the topic timeline.'
+
+min_screen_width:
+  default: 1260px
+  description: 'Does not increase the post width if the screen is smaller (to avoid overlapping with the topic timeline).'
