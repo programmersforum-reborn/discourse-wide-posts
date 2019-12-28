@@ -5,3 +5,7 @@ additional_post_width:
 min_screen_width:
   default: 1260px
   description: 'Does not increase the post width if the screen is smaller (to avoid overlapping with the topic timeline).'
+
+increase_editor_width:
+  default: true
+  description: 'Increases the editor max width to make the preview area match the post width on big screens.'
