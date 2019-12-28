@@ -1,5 +1,5 @@
 @media screen and (min-width: $min_screen_width) {
     .topic-post:not(.d-toc-post) .topic-body {
-        width: calc(#{$topic-body-width} + (#{$topic-body-width-padding} * 2) + $additional_post_width);
+        width: calc(#{$topic-body-width} + (#{$topic-body-width-padding} * 2) + #{$additional_post_width});
     }
 }
