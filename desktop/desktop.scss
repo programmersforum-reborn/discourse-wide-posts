@@ -7,7 +7,7 @@
         max-width: calc(758px + #{$additional_post_width});
     }
 
-    @if $increase_editor_width {   
+    @if $increase_editor_width == 'true' {   
         #reply-control {
             max-width: calc(1475px + (#{$additional_post_width} * 2));
         }
