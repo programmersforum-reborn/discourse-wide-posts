@@ -2,4 +2,8 @@
     .topic-post:not(.d-toc-post) .topic-body {
         width: calc(#{$topic-body-width} + (#{$topic-body-width-padding} * 2) + #{$additional_post_width});
     }
+    
+    .topic-status-info, .onscreen-post {
+        max-width: calc(758px + #{$additional_post_width});
+    }
 }
