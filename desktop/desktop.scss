@@ -11,5 +11,13 @@
         #reply-control {
             max-width: calc(1475px + (#{$additional_post_width} * 2));
         }
+
+        .composer-popup-container {
+            max-width: calc(1500px + (#{$additional_post_width} * 2));
+        }
+
+        .composer-popup {
+            max-width: calc(724px + #{$additional_post_width});
+        }
     }
 }
